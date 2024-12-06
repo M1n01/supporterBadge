@@ -10,20 +10,7 @@ export default [
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    name: 'my-config',
-    files: ['frontend/**/*.{ts,tsx}', 'eth/**/*.{ts,tsx}'],
     ignores: ['**/node_modules/', '**/.next/', '**/eslint.config.js'],
-    languageOptions: {
-      globals: {
-        ...globals.browser,
-        ...globals.es2021,
-      },
-    },
-    rules: {
-      'no-unused-vars': "warn",
-      "react/no-unescaped-entities": "off",
-      "@next/next/no-page-custom-font": "off"
-    }
   },
   {
     name: 'react/jsx-runtime',
@@ -57,5 +44,10 @@ export default [
   {
     name: 'prettier/config',
     ...eslintConfigPrettier,
+  },
+  {
+    rules: {
+      '@next/next/no-html-link-for-pages': "off",
+    }
   }
 ];
