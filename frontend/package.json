@@ -11,15 +11,15 @@
   "dependencies": {
     "next": "15.0.3",
     "pnpm": "^9.14.4",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "react": "^20",
+    "react-dom": "^20"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
+    "@types/node": "^20.17.9",
+    "@types/react": "^18.3.14",
+    "@types/react-dom": "^18.3.2",
+    "eslint": "^8.57.1",
     "eslint-config-next": "15.0.3",
-    "typescript": "^5"
+    "typescript": "^5.7.2"
   }
 }
