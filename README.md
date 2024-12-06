@@ -31,7 +31,6 @@ $ pnpm install
 
 # create .env file
 $ touch .env.local
-$ echo "NEXT_PUBLIC_NOTION_TOKEN=<your-notion-token>\nNEXT_PUBLIC_DATABASE_ID=<your-notion-database-id>" > .env.local
 
 # start the development server
 $ pnpm dev
@@ -49,7 +48,6 @@ http://localhost:3000
 ## 2. Tech Stack
 
 - Next.js
-- Notion API
 - Mantine
 - cloudflare # for deployment
 - solidity # for smart contract
